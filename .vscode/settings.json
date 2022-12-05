@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "sharedspice.h": "c",
+        "stdbool.h": "c",
+        "pthread.h": "c",
+        "cstdio": "c"
+    }
+}
