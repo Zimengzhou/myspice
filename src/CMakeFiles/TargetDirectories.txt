@@ -1,5 +1,0 @@
-D:/Projects/C/myspice/src/CMakeFiles/edit_cache.dir
-D:/Projects/C/myspice/src/CMakeFiles/rebuild_cache.dir
-D:/Projects/C/myspice/src/bin/CMakeFiles/myspice.dir
-D:/Projects/C/myspice/src/bin/CMakeFiles/edit_cache.dir
-D:/Projects/C/myspice/src/bin/CMakeFiles/rebuild_cache.dir
