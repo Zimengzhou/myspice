@@ -1,7 +1,9 @@
-LINK_DIRECTORIES(D:\\Projects\\C\\myspice\\src\\dll-mingw)
-INCLUDE_DIRECTORIES(../include/ngspice)
+# LINK_DIRECTORIES(D:\\Projects\\C\\myspice\\src\\dll-mingw)
+SET(DLL_LINK_PATH ${CMAKE_CURRENT_SOURCE_DIR}/dll-mingw)
+LINK_DIRECTORIES(DLL_LINK_PATH)
 #上面是添加dll的路径,非标准路径要像这样添加，并且在ADD_EXECUTABLE前
+INCLUDE_DIRECTORIES(../include/ngspice)
+
 ADD_EXECUTABLE(myspice main.c myspice.c)
 
 TARGET_LINK_LIBRARIES(myspice libgcc_s_seh-1 libgomp-1 libngspice-0 libwinpthread-1)
-

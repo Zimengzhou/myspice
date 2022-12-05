@@ -67,8 +67,9 @@ void spiceInit()
  */
 bool loadSpinit(const char* spinitfilename)
 {
+
     char cmd[200];
-    FILE *spinitf;
+    FILE *spinitf = NULL;
     spinitf = fopen(spinitfilename, "r");
     printf(spinitfilename);
     while(!feof(spinitf))
